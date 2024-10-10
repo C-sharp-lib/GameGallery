@@ -1,13 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GameGallery.Models
 {
     public class Comments : BaseEntity
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int CommentId { get; set; }
         public string Description { get; set; }
-        public ICollection<Users> Users { get; set; }
+        public ICollection<UserComments> UserComments { get; set; }
 
         public Comments()
         {

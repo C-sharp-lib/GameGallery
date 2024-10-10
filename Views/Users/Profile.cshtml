@@ -1,0 +1,138 @@
+﻿@{
+    Layout = "_Layout";
+    var gameReviews = ViewBag.gameReviews;
+    var user = ViewBag.theUser;
+}
+
+
+<div class="row">
+    <div class="col-12 col-md-5 col-lg-5">
+        <div id="app" class="container mt-7 m-8">
+            <card data-image="@Url.Content($"~/img/profile/{user.ImageUrl}.png")">
+                <h3 slot="header"><span id="typed-1"></span></h3>
+                <div id="typed-strings">
+                    <h1></h1>
+                </div>
+                <p slot="content"><strong>Joined: </strong>@user.CreatedAt.ToLongDateString()</p>
+            </card>
+        </div>
+    </div>
+    <div class="col-12 col-md-7 col-lg-7">
+        <div class="container review-container mt-5">
+            <div class="product-image review-container scroll-container">
+                <div class="user-review-header">
+                    <h6 class="text-center text-white mt-1 mb-1">@user.FirstName's User Reviews</h6>
+                    @if (gameReviews != null)
+                    {
+                        @foreach (var review in gameReviews)
+                        {
+                            <div class="card card-background move-on-hover card-review">
+                                <div class="full-background" style="background-image: url('@Url.Content($"~/img/{review.Games.ImageUrl}.png")')"></div>
+                                <div class="card-body">
+                                    <div class="overlay">
+                                    <h5 class="text-center text-white ubuntu-bold">@review.Games.Title</h5>
+                                    <div class="rate">
+                                        @for (int i = 1; i <= 5; i++)
+                                        {
+                                            if (i <= (int)review.Reviews.StarRating)
+                                            {
+                                                <i class="fas fa-star"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="far fa-star"></i>
+                                            }
+                                        }
+                                    </div>
+                                    
+                                        <p>@review.TruncateWords(@review.Reviews.Description)</p>
+                                        <span>
+                                            <a href="!#" class="custom-btn btn-7 button"><span><i class="fa-solid fa-pen-to-square"></i></span></a>
+                                            <a href="!#" class="custom-btn btn-dark-red button"><span><i class="fa-solid fa-xmark"></i></span></a>
+                                        </span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p class="text-center text-white">No reviews by @user.FullName()</p>
+                    }
+                </div>
+
+            </div>
+
+            <div class="product-details">
+                <header>
+                    <h1 class="title">@user.FullName()</h1>
+
+                    <span class="colorCat">@user.Username</span>
+                    <div class="price">
+                        @* <span class="before">$@Model.Games.PriceBefore.ToString()</span>
+                        <span class="current">$@Model.Games.Price.ToString()</span> *@
+                    </div>
+                    @* <div class="rate">
+                    <a href="#!" class="active">★</a>
+                    <a href="#!" class="active">★</a>
+                    <a href="#!" class="active">★</a>
+                    <a href="#!">★</a>
+                    <a href="#!">★</a>
+                    </div> *@
+                </header>
+                <div class="text-container">
+                    <h5>Description</h5>
+                    <p>@user.Bio</p>
+                </div>
+                @*         <div class="controls">
+                <div class="color">
+                <h5>color</h5>
+                <ul>
+                <li><a href="#!" class="colors color-bdot1 active"></a></li>
+                <li><a href="#!" class="colors color-bdot2"></a></li>
+                <li><a href="#!" class="colors color-bdot3"></a></li>
+                <li><a href="#!" class="colors color-bdot4"></a></li>
+                <li><a href="#!" class="colors color-bdot5"></a></li>
+                </ul>
+                </div>
+                <div class="size">
+                <h5>size</h5>
+                <a href="#!" class="option">(UK 8)</a>
+                </div>
+                <div class="qty">
+                <h5>qty</h5>
+                <a href="#!" class="option">(1)</a>
+                </div>
+                </div> *@
+
+                @* <div class="text-box text-center">
+                <div class="text-container">
+                <a class="custom-btn btn-3 button"><span>Add To Cart</span></a>
+                </div>
+                </div> *@
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            const firstName = @Html.Raw(Json.Serialize(user.FirstName));
+            const lastName = @Html.Raw(Json.Serialize(user.LastName));
+            if (document.getElementById('typed-1')) {
+                var typed = new Typed("#typed-1", {
+                    strings: [firstName + " " + lastName],
+                    typeSpeed: 90,
+                    backSpeed: 90,
+                    backDelay: 500,
+                    startDelay: 500,
+                    loop: true
+                });
+            }
+        });
+    </script>
+}

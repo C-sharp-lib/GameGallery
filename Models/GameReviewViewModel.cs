@@ -1,10 +1,9 @@
 ﻿namespace GameGallery.Models
 {
-    public class UserReviews
+    public class GameReviewViewModel
     {
-        public int UserId { get; set; }
         public Users Users { get; set; }
-        public int ReviewId { get; set; }
+        public Games Games { get; set; }
         public Reviews Reviews { get; set; }
     }
 }

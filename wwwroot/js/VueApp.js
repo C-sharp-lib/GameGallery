@@ -7,7 +7,7 @@ Vue.component('card', {
       @mouseenter="handleMouseEnter"
       @mouseleave="handleMouseLeave"
       ref="card">
-      <div class="card"
+      <div class="card car"
         :style="cardStyle">
         <div class="card-bg" :style="[cardBgTransform, cardBgImage]"></div>
         <div class="card-info">
@@ -80,5 +80,5 @@ Vue.component('card', {
 
 
 const app = new Vue({
-    el: '.app'
+    el: '#app'
 });

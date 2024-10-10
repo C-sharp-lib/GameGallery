@@ -29,6 +29,11 @@ namespace GameGallery.Models
         [DataType(DataType.EmailAddress)]
         [Display(Name = "Email")]
         public string Email { get; set; }
+        [Required(ErrorMessage = "Username is required")]
+        [MinLength(2, ErrorMessage = "A minimum of 2 is allowed for Username")]
+        [MaxLength(30, ErrorMessage = "A maximum of 30 is allowed for Username")]
+        [Display(Name = "Username")]
+        public string Username { get; set; }
         [Required(ErrorMessage = "Password is required")]
         [MinLength(4, ErrorMessage = "A minimum length of 4")]
         [MaxLength(20, ErrorMessage = "A maximum length of 20")]
@@ -37,7 +42,7 @@ namespace GameGallery.Models
         public string Password { get; set; }
         [Required(ErrorMessage = "Confirm password is required")]
         [DataType(DataType.Password)]
-        [Compare("passwordHash")]
+        [Compare("Password")]
         [Display(Name = "Confirm Password")]
         public string Confirmed { get; set; }
 

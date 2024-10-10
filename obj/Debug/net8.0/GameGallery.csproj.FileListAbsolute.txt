@@ -137,3 +137,4 @@ C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\Game
 C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\GameGallery\obj\Debug\net8.0\ref\GameGallery.dll
 C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\GameGallery\bin\Debug\net8.0\wwwroot\img\spacemarinetwo.png
 C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\GameGallery\bin\Debug\net8.0\wwwroot\img\starfield.png
+C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\GameGallery\obj\Debug\net8.0\GameGallery.sourcelink.json

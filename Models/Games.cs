@@ -1,10 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GameGallery.Models
 {
     public class Games
     {
+
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int GameId { get; set; }
 
         public string Title { get; set; }
@@ -18,8 +22,9 @@ namespace GameGallery.Models
         public string ImageUrl { get; set; }
 
         public string System { get; set; }
-
+        [Precision(10, 2)]
         public decimal? Price { get; set; }
+        [Precision(10, 2)]
         public decimal? PriceBefore { get; set; }
         public ICollection<GameReviews> GameReviews { get; set; }
         public ICollection<GameGenres> GameGenres { get; set; }

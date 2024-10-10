@@ -33,31 +33,72 @@
             <h5>Description</h5>
             <p>@Model.Games.Description</p>
         </div>
-@*         <div class="controls">
-            <div class="color">
-                <h5>color</h5>
-                <ul>
-                    <li><a href="#!" class="colors color-bdot1 active"></a></li>
-                    <li><a href="#!" class="colors color-bdot2"></a></li>
-                    <li><a href="#!" class="colors color-bdot3"></a></li>
-                    <li><a href="#!" class="colors color-bdot4"></a></li>
-                    <li><a href="#!" class="colors color-bdot5"></a></li>
-                </ul>
-            </div>
-            <div class="size">
-                <h5>size</h5>
-                <a href="#!" class="option">(UK 8)</a>
-            </div>
-            <div class="qty">
-                <h5>qty</h5>
-                <a href="#!" class="option">(1)</a>
-            </div>
+        @*         <div class="controls">
+        <div class="color">
+        <h5>color</h5>
+        <ul>
+        <li><a href="#!" class="colors color-bdot1 active"></a></li>
+        <li><a href="#!" class="colors color-bdot2"></a></li>
+        <li><a href="#!" class="colors color-bdot3"></a></li>
+        <li><a href="#!" class="colors color-bdot4"></a></li>
+        <li><a href="#!" class="colors color-bdot5"></a></li>
+        </ul>
+        </div>
+        <div class="size">
+        <h5>size</h5>
+        <a href="#!" class="option">(UK 8)</a>
+        </div>
+        <div class="qty">
+        <h5>qty</h5>
+        <a href="#!" class="option">(1)</a>
+        </div>
         </div> *@
-        <div class="container">
-            <div class="text-box text-center">
-                <div class="text-container">
-                    <a class="custom-btn btn-3 button"><span>Add To Cart</span></a>
+
+        <div class="text-box text-center">
+            <div class="text-container">
+                <a class="custom-btn btn-3 button"><span>Add To Cart</span></a>
+                <button type="button" class="custom-btn btn-3 button" data-bs-toggle="modal" data-bs-target="#modal-form"><span>Leave A Review For This Game</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-12 col-md-6">
+    
+    <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-header pb-0 text-left">
+                            <h3 class="font-weight-bolder text-info text-gradient">Review @Model.Games.Title</h3>
+                        </div>
+                        <div class="card-body">
+                            <form role="form text-left" asp-action="AddReview" asp-controller="GameGallery" asp-route-id="@Model.Games.GameId" method="post">
+                                <label>Rating</label>
+                                <div class="input-group mb-3">
+                                    <select class="form-control" name="StarRating" id="StarRating">
+                                        <option value="1">1 Star</option>
+                                        <option value="2">2 Stars</option>
+                                        <option value="3">3 Stars</option>
+                                        <option value="4">4 Stars</option>
+                                        <option value="5">5 Stars</option>
+                                    </select>
+                                </div>
+                                <label>Review</label>
+                                <div class="input-group mb-3">
+                                    <textarea  class="form-control" placeholder="Leave A Review" name="Description" rows="3" cols="10" id="Review"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="custom-btn btn-3 button"><span>Add Review</span></button>
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>

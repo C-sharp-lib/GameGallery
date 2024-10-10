@@ -1,4 +1,110 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+  --color-primary: #214fe0;
+  --color-dark: #1d1f20;
+  --color-light: #f4f4f4;
+  --color-shade: #bbb;
+  
+  --badge-size: 250px;
+  
+  --lock-color: #fff;
+  --lock-width: 30px;
+  --lock-stroke: 2.5px;
+  
+}
+.spacer {
+    margin: 100px 0 100px 0 !important;
+}
+
+body > header > nav > div > div > div > ul > li > ul::before {
+    display: none;
+}
+body > header > nav > div > div > div > ul > li > ul {
+    width: 290px;
+    display: block;
+}
+    body > header > nav > div > div > div > ul > li:nth-child(2) > ul > form > li,
+    body > header > nav > div > div > div > ul > li > ul > li {
+        margin-right: 17px;
+    }
+
+
+    body,
+    .container,
+    nav {
+        background-color: #181828;
+    }
+
+
+.card-dark {
+    background-color: rgb(22,22,22,0.4);
+}
+body > div.container-fluid > main > div:nth-child(2) > div > button {
+    width: 50vw !important;
+    position: relative !important;
+}
+body > div.container-fluid > main > div:nth-child(2) > div > form:after {
+    display: none;
+}
+body > div.container-fluid > main > div:nth-child(2) > div > form:after,
+body > div.container-fluid > main > div:nth-child(2) > div > form:before {
+    background-color: rgb(33,37,41) !important;
+}
+body > div.container-fluid > main > div:nth-child(2) > div > form {
+    width: 50vw !important;
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 10% !important;
+    text-align: center;
+    background-color: rgb(33,37,41) !important;
+    color: white;
+    padding: 30px;
+}
+
+/* {
+    display: none;
+    position: absolute;
+    background-color: rgb(33,37,41) !important;
+    min-width: 50vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    top: 10% !important;
+    left: 24% !important;
+    transform: translateX(-50%);
+}
+*/
+.modal-content {
+    background-color: transparent !important; /* Adjust the color and opacity */
+}
+.modal-body {
+    background-color: transparent !important;
+    color: #fff; /* Optional: Adjust text color for visibility */
+}
+
+#modal-form > div > div > div > div > div.card-body > form > label:nth-child(n) {
+    color: white;
+}
+.dropdown-menu.drop-form form input:focus {
+    border: 2px solid white;
+    background-color: rgb(33,37,41);
+    color: white;
+}
+body > div.container-fluid > main > div.row > div > div > form > div > div.col-12.col-md-8 > div > label,
+body > div.container-fluid > main > div.row > div > div > form > div > div.col-12.col-md-4 > div > label {
+    color: white;
+}
+body > div.container-fluid > main > div.row > div > div > form {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto !important;
+}
+#Review,
+#StarRating {
+    background-color: rgb(33,37,41);
+    color: white;
+}
 
 a {
     text-decoration: none;
@@ -25,15 +131,35 @@ a {
         font-style: normal;
         text-align: center;
     }
+
+.card.card-background.move-on-hover.card-review {
+    width: 20vw !important;
+    height: auto;
+}
 .card-img-top {
     height: 250px;
 }
+.alert-outline-danger {
+    display: none;
+}
 
+.alert-outline-danger {
+    color: tomato;
+    background-color: transparent;
+    border-top: 1px solid tomato;
+    border-bottom: 1px solid tomato;
+    border-left: 1px solid tomato;
+    border-right: 1px solid tomato;
+    padding: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
 
 /*----  Main Style  ----*/
 #cards_landscape_wrap-2 {
     text-align: center;
-    background: #F7F7F7;
+    background-color: #181828;
 }
 
     #cards_landscape_wrap-2 .container {
@@ -144,7 +270,251 @@ a {
 }
 
 /* 3 */
-.btn-3 {
+.card.card-dark .card-body form .form-group input {
+    background-color: #181828;
+    color: white;
+}
+.card.card-dark .card-body form .form-group input::placeholder {
+    color: white;
+}
+    .card.card-dark .card-body form .form-group input .active,
+    .card.card-dark .card-body form .form-group input:focus {
+        border: 2px solid dodgerblue;
+    }
+#LoginForm input.form-control {
+    background-color: #181828 !important;
+    color: white;
+}
+
+/*btn-dark-red*/
+
+.btn-dark-red {
+    background: linear-gradient(0deg, rgb(140,0,0) 0%, rgb(240,0,0) 100%);
+    line-height: 45px;
+    padding: 0;
+    border: none;
+    width: 20% !important;
+}
+
+    .btn-dark-red span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn-dark-red:before,
+    .btn-dark-red:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        background: rgb(140,0,0);
+        transition: all 0.3s ease;
+    }
+
+    .btn-dark-red:before {
+        height: 0%;
+        width: 2px;
+    }
+
+    .btn-dark-red:after {
+        width: 0%;
+        height: 2px;
+    }
+
+    .btn-dark-red:hover {
+        color: rgb(140,0,0);
+        background: transparent;
+    }
+
+        .btn-dark-red:hover:before {
+            height: 100%;
+        }
+
+        .btn-dark-red:hover:after {
+            width: 100%;
+        }
+
+    .btn-dark-red span:before,
+    .btn-dark-red span:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        background: rgb(140,0,0);
+        transition: all 0.3s ease;
+    }
+
+    .btn-dark-red span:before {
+        width: 2px;
+        height: 0%;
+    }
+
+    .btn-dark-red span:after {
+        height: 2px;
+        width: 0%;
+    }
+
+    .btn-dark-red span:hover:before {
+        height: 100%;
+    }
+
+    .btn-dark-red span:hover:after {
+        width: 100%;
+    }
+
+/*End btn-dark-red*/
+
+/*btn-7*/
+
+/* 7 */
+.btn-7 {
+    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+    line-height: 45px;
+    padding: 0;
+    border: none;
+    width: 20% !important;
+}
+
+    .btn-7 span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn-7:before,
+    .btn-7:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        background: rgba(251,75,2,1);
+        transition: all 0.3s ease;
+    }
+
+    .btn-7:before {
+        height: 0%;
+        width: 2px;
+    }
+
+    .btn-7:after {
+        width: 0%;
+        height: 2px;
+    }
+
+    .btn-7:hover {
+        color: rgba(251,75,2,1);
+        background: transparent;
+    }
+
+        .btn-7:hover:before {
+            height: 100%;
+        }
+
+        .btn-7:hover:after {
+            width: 100%;
+        }
+
+    .btn-7 span:before,
+    .btn-7 span:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        background: rgba(251,75,2,1);
+        transition: all 0.3s ease;
+    }
+
+    .btn-7 span:before {
+        width: 2px;
+        height: 0%;
+    }
+
+    .btn-7 span:after {
+        height: 2px;
+        width: 0%;
+    }
+
+    .btn-7 span:hover:before {
+        height: 100%;
+    }
+
+    .btn-7 span:hover:after {
+        width: 100%;
+    }
+
+
+/*End Of btn-7*/
+/*btn-12*/
+.btn-12 {
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    box-shadow: none;
+    width: 80%;
+    height: 40px;
+    line-height: 42px;
+    -webkit-perspective: 230px;
+    perspective: 230px;
+}
+
+    .btn-12 span {
+        background: rgb(0,172,238);
+        background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+        display: block;
+        position: absolute;
+        width: 90%;
+        height: 40px;
+        box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        border-radius: 5px;
+        margin: 0;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+
+        .btn-12 span:nth-child(1) {
+            box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+            -webkit-transform: rotateX(90deg);
+            -moz-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+            -webkit-transform-origin: 50% 50% -20px;
+            -moz-transform-origin: 50% 50% -20px;
+            transform-origin: 50% 50% -20px;
+        }
+
+        .btn-12 span:nth-child(2) {
+            -webkit-transform: rotateX(0deg);
+            -moz-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+            -webkit-transform-origin: 50% 50% -20px;
+            -moz-transform-origin: 50% 50% -20px;
+            transform-origin: 50% 50% -20px;
+        }
+
+    .btn-12:hover span:nth-child(1) {
+        box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+    }
+
+    .btn-12:hover span:nth-child(2) {
+        box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        color: transparent;
+        -webkit-transform: rotateX(-90deg);
+        -moz-transform: rotateX(-90deg);
+        transform: rotateX(-90deg);
+    }
+
+
+    .btn-3 {
     background: rgb(0,172,238);
     background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
     width: 130px;
@@ -153,34 +523,29 @@ a {
     padding: 0;
     border: none;
 }
-
     .btn-3 span {
         position: relative;
         display: block;
         width: 100%;
         height: 100%;
     }
-
-    .btn-3:before,
-    .btn-3:after {
-        position: absolute;
-        content: "";
-        right: 0;
-        top: 0;
-        background: rgba(2,126,251,1);
-        transition: all 0.3s ease;
-    }
-
+        .btn-3:before,
+        .btn-3:after {
+            position: absolute;
+            content: "";
+            right: 0;
+            top: 0;
+            background: rgba(2,126,251,1);
+            transition: all 0.3s ease;
+        }
     .btn-3:before {
         height: 0%;
         width: 2px;
     }
-
     .btn-3:after {
         width: 0%;
         height: 2px;
     }
-
     .btn-3:hover {
         background: transparent;
         box-shadow: none;
@@ -194,9 +559,9 @@ a {
             width: 100%;
         }
 
-    .btn-3 span:hover {
-        color: rgba(2,126,251,1);
-    }
+        .btn-3 span:hover {
+            color: rgba(2,126,251,1);
+        }
 
     .btn-3 span:before,
     .btn-3 span:after {
@@ -229,9 +594,45 @@ a {
 .button {
     margin: 20px;
 }
-
-
-
+.overlay {
+    background-color: rgba(20, 20, 20, 0.4); /* Black with 50% opacity */
+    color: white; /* Text color */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: center; /* Center text */
+    margin-top: -17px;
+    margin-left: -20px;
+    padding: 30px;
+    clear: both;
+}
+.container.review-container {
+    height: 95vh !important;
+    position: relative;
+    bottom: 100px;
+}
+    .review-container.scroll-container {
+        height: auto; /* Set the height of your container */
+        overflow-y: scroll; /* Enable vertical scrolling */
+        scrollbar-width: none; /* Hide scrollbar in Firefox */
+    }
+    /*.container.review-container > .scroll-container::-webkit-scrollbar {
+        display: none;*/ /* Hide scrollbar in WebKit browsers */
+    /*}*/
+.fas.fa-star,
+.far.fa-star {
+    color: gold;
+}
+.product-image.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(100,100,250,1) 0%, rgba(10,10,250,0.8) 100%);
+    border-radius: 20px 20px 0 0;
+    padding: 55px 0;
+    width: 100%;
+    margin: 10% auto;
+    filter: drop-shadow(-6px 40px 23px rgba(0, 0, 0, 0.5));
+}
 .product-image {
     display: flex;
     flex-direction: column;
@@ -412,6 +813,118 @@ a {
                 color: #fe6067;
             }
 
+
+/*View Card Styles*/
+
+.card-wrap {
+    margin: 10px;
+    transform: perspective(800px);
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+    .card-wrap:hover .card-info {
+        transform: translateY(0);
+    }
+
+        .card-wrap:hover .card-info p {
+            opacity: 1;
+        }
+
+        .card-wrap:hover .card-info, .card-wrap:hover .card-info p {
+            transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+            .card-wrap:hover .card-info:after {
+                transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+    .card-wrap:hover .card-bg {
+        transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+        opacity: 0.8;
+    }
+
+    .card-wrap:hover .card {
+        transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+        box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px, rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px;
+    }
+
+.card {
+    position: relative;
+    flex: 0 0 240px;
+    width: 25vw;
+    height: 45vh;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
+    transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.card-bg {
+    opacity: 1;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #333 !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    pointer-events: none;
+}
+
+.card-info {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    transform: translateY(40%);
+    transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+    .card-info p {
+        opacity: 0;
+        text-shadow: black 0 2px 3px;
+        transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    .card-info * {
+        position: relative;
+        z-index: 1;
+    }
+
+    .card-info:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+        background-blend-mode: overlay;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    }
+
+    .card-info h1 {
+        font-size: 36px;
+        text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+    }
+
+/*End View Card Styles*/
+
+
+
+
+
 .dots {
     display: flex;
     margin-top: 40px;
@@ -525,7 +1038,66 @@ a {
     }
 }
 
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input,
+.dropdown-menu.drop-form li form input,
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+body > div.container-fluid > main > div:nth-child(n) > div:nth-child(n) > div > div > div > a:nth-child(n) > h4,
+.card-body,
+button,
+.card-info h1,
+.card-title,
+.form-label,
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.white {
+    background-color: rgba(250,250,250,0.7);
+    height: 3px;
+    width: 100%;
+}
 
 
 @media (max-width: 800px) {

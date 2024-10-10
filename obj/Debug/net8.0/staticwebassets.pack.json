@@ -1837,6 +1837,18 @@
       "PackagePath": "staticwebassets\\img\\halo.png"
     },
     {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\profile\\billcunningham.jpg",
+      "PackagePath": "staticwebassets\\img\\profile\\billcunningham.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\profile\\billcunningham.png",
+      "PackagePath": "staticwebassets\\img\\profile\\billcunningham.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\profile\\tinacury.png",
+      "PackagePath": "staticwebassets\\img\\profile\\tinacury.png"
+    },
+    {
       "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\spacemarinetwo.png",
       "PackagePath": "staticwebassets\\img\\spacemarinetwo.png"
     },
@@ -1855,6 +1867,10 @@
     {
       "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\js\\typedjs.js",
+      "PackagePath": "staticwebassets\\js\\typedjs.js"
     },
     {
       "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\LICENSE",
