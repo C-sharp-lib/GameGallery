@@ -1,0 +1,49 @@
+﻿@model IEnumerable<GameGenres>
+@{
+    Layout = "_Layout";
+}
+
+<div class="row">
+    @if (Model != null)
+    {
+        <div id="cards_landscape_wrap-2">
+                <div class="container">
+                    <div class="row">
+        @foreach (var game in Model)
+        {
+            
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="@Url.Content($"~/img/{game.Games.ImageUrl}.png")" alt="@game.Games.Title" />
+                                        </div>
+                                        <div class="text-container">
+                                            <h6>@game.Games.Title</h6>
+                                            <p>$@game.Games.Price.ToString()</p>
+                                            <p>@game.TruncateWords(game.Games.Description)</p>
+                                            <a asp-action="GetGame" asp-controller="GameGallery" asp-route-id="@game.Games.GameId" class="custom-btn btn-3 button"><span>Read More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    
+        }
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="lead">No Games Here.</p>
+            </div>
+        </div>
+    }
+</div>
+
+

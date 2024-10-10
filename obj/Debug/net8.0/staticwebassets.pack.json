@@ -1,0 +1,2105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameGallery.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GameGallery.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\css\\soft-design-system-pro.css",
+      "PackagePath": "staticwebassets\\assets\\css\\soft-design-system-pro.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\css\\soft-design-system-pro.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\soft-design-system-pro.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\css\\soft-design-system-pro.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\soft-design-system-pro.min.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\fonts\\nucleo.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.eot"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\fonts\\nucleo.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.ttf"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\fonts\\nucleo.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\fonts\\nucleo.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff2"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\Tim.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Tim.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\alesia.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\alesia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\anastasia.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\anastasia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\annie-spratt.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\annie-spratt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\audio\\example.mp3",
+      "PackagePath": "staticwebassets\\assets\\img\\audio\\example.mp3"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\automotive\\amg-gt.png",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\amg-gt.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\automotive\\cls.png",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\cls.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\automotive\\g-amg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\g-amg.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\automotive\\g-grey.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\g-grey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\automotive\\glc.png",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\glc.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\automotive\\s-maybach.png",
+      "PackagePath": "staticwebassets\\assets\\img\\automotive\\s-maybach.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\blog7-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog7-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\blog7-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog7-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\blog7-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog7-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\brooke.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\brooke.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bruce-mars.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\card-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\card-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\card-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\card-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\charles.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\charles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\creative-tim-white-slim2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\creative-tim-white-slim2.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved11-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved11-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved3.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved5-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved5-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved6-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved6-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\curved-images\\curved9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\default-avatar.png",
+      "PackagePath": "staticwebassets\\assets\\img\\default-avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\down-arrow-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\down-arrow-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\down-arrow.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\dusty-blue.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\dusty-blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\github.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\github.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\google.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\gucci.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gucci.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\archive-drawer.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\archive-drawer.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\basket.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\basket.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\box-3d-50.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\box-3d-50.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\briefcase-24.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\briefcase-24.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\bullet-list-67.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\bullet-list-67.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\chart-pie-35.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\chart-pie-35.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\credit-card.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\credit-card.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\customer-support.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\customer-support.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\delivery-fast.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\delivery-fast.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\document.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\document.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\map-big.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\map-big.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\megaphone.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\megaphone.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\office.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\office.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\settings.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\settings.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\shop.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\shop.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\sound-wave.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\sound-wave.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\spaceship.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\spaceship.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\switches.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\switches.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\time-alarm.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\time-alarm.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\icons\\icon-with-opacity\\ungroup.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-with-opacity\\ungroup.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\bag.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\bag.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\card-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\card-1.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\card-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\card-2.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\card.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\card.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\chat.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\chat.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\cloud-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\cloud-2.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\cloud.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\cloud.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\error-404.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\error-404.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\error-500.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\error-500.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\folder.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\folder.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\illustration-paper.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\illustration-paper.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\iphone-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\iphone-1.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\iphone-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\iphone-2.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\iphone-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\iphone-3.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\iphone-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\iphone-4.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\lock.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\lock.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\man-cloud.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\man-cloud.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\man-rocket.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\man-rocket.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\rocket-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\rocket-white.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\settings.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\settings.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\illustrations\\sign-up.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\sign-up.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\image_placeholder.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\image_placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\inlytics.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\inlytics.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\iphone.png",
+      "PackagePath": "staticwebassets\\assets\\img\\iphone.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\iphone.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\iphone.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\ivana-square.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivana-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\ivana-squares.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivana-squares.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\ivana.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\ivancik.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivancik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\jeshoots.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\jeshoots.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\jordan.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\jordan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\kal-visuals-square.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\kal-visuals-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\kal-visuals.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\kal-visuals.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\app-store-button.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\app-store-button.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\appstore.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\appstore.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\appstore.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\appstore.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\google-play-button.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google-play-button.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\google-play.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google-play.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\google-play.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google-play.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-apple.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-apple.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-behance.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-behance.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-coinbase.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-coinbase.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-digitalocean.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-digitalocean.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-google.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-mailchimp.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-mailchimp.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-nasa.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-nasa.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-netflix.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-netflix.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-pinterest.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-pinterest.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-vodafone.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-vodafone.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-apple.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-apple.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-behance.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-behance.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-coinbase.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-coinbase.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-digital-ocean.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-digital-ocean.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-google.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-mailchimp.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-mailchimp.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-nasa.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-nasa.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-netflix.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-netflix.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-pinterest.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-pinterest.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\medium-logos\\logo-vodafone.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\medium-logos\\logo-vodafone.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-apple.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-apple.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-asana.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-asana.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-google-drive.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-google-drive.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-google.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-invision.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-invision.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-jira.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-jira.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-shopify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-shopify.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-weave.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-weave.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-webdev.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-webdev.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\small-logos\\logo-xd.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\small-logos\\logo-xd.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-apple-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-apple-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-behance-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-behance-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-coinbase-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-coinbase-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-digitalocean-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-digitalocean-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-facebook-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-facebook-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-google-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-google-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-mailchimp-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-mailchimp-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-nasa-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-nasa-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-netflix-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-netflix-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-pinterest-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-pinterest-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-spotify-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-spotify-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\logos\\white-logos\\logo-vodafone-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\white-logos\\logo-vodafone-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\macbook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\macbook.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\marie.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\marie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\meeting.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\meeting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\mimi-thian.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\mimi-thian.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\modal-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\modal-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\nastuh.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\nastuh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\office-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\office-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\office-2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\office-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\office-dark.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\office-dark.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\pattern-points.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pattern-points.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\phones.png",
+      "PackagePath": "staticwebassets\\assets\\img\\phones.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\podcast\\episode-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\episode-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\podcast\\episode-2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\episode-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\podcast\\episode-3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\episode-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\podcast\\header-image.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\header-image.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\podcast\\podcast-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\podcast-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\podcast\\podcast-2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\podcast-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\podcast\\podcast-3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\podcast-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\podcast\\podcast-4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\podcast\\podcast-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\shapes\\pattern-lines.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\pattern-lines.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\shapes\\shape-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\shapes\\shape-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\shapes\\shape-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\shapes\\wave-down.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\wave-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\shapes\\wave-up.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\wave-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\shapes\\waves-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-gray.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\shapes\\waves-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\t-shirt.png",
+      "PackagePath": "staticwebassets\\assets\\img\\t-shirt.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\team-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\toa-heftiba.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\toa-heftiba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\tshirt.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tshirt.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\img\\wave-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\wave-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\anime.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\anime.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\choices.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\choices.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\countup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\countup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\flatpickr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\glidejs.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\glidejs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\green-audio-player.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\green-audio-player.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\highlight.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\highlight.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\parallax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\presentation-page\\rellax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\presentation-page\\rellax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\prism.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\prism.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\rellax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\rellax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\smooth-scroll.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\smooth-scroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\tilt.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tilt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\plugins\\typedjs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\typedjs.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\soft-design-system-pro.js",
+      "PackagePath": "staticwebassets\\assets\\js\\soft-design-system-pro.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\soft-design-system-pro.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\soft-design-system-pro.js.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\js\\soft-design-system-pro.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\soft-design-system-pro.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_backgrounds.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_backgrounds.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_cards-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_components.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_dropdown-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_dropdown-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_dropup.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_dropup.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_floating-elements.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_floating-elements.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_list-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_list-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_misc-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_popovers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_popovers.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_rtl-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_rtl-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_tilt.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_tilt.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_tooltips.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\badges\\_badge-circle.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\badges\\_badge-circle.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\badges\\_badge-dot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\badges\\_badge-dot.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\badges\\_badge-floating.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\badges\\_badge-floating.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\badges\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\badges\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\cards\\card-background.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\cards\\card-blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\cards\\card-blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\cards\\card-horizontal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\cards\\card-horizontal.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\cards\\card-pricing.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\cards\\card-pricing.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\cards\\card-profile.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\cards\\card-profile.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\custom\\_styles.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\custom\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_carousel-slick.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_carousel-slick.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_choices.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_choices.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_datatable-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_datatable-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_datatable.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_datatable.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_dragula.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_dragula.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_dropzone.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_dropzone.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_fullcalendar-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_fullcalendar-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_fullcalendar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_fullcalendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_glidejs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_glidejs.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_green-audio-player.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_green-audio-player.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_highlight.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_highlight.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_kanban.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_kanban.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_leaflet.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_leaflet.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_list-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_list-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_photoswipe.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_photoswipe.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_quill.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_quill.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_rating-widget.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_rating-widget.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_sweetalert2-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_sweetalert2-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_sweetalert2.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\_sweetalert2.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\multi-step.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\multi-step.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\plugins-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\plugins\\pro\\plugins-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\theme-pro.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\theme-pro.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\theme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_choices.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_table.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\assets\\scss\\soft-design-system-pro\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\soft-design-system-pro\\variables\\_virtual-reality.scss"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\cyberpunk.png",
+      "PackagePath": "staticwebassets\\img\\cyberpunk.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\genres\\actionadventure.png",
+      "PackagePath": "staticwebassets\\img\\genres\\actionadventure.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\genres\\puzzle.png",
+      "PackagePath": "staticwebassets\\img\\genres\\puzzle.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\genres\\racing.png",
+      "PackagePath": "staticwebassets\\img\\genres\\racing.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\genres\\rpg.png",
+      "PackagePath": "staticwebassets\\img\\genres\\rpg.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\genres\\sports.png",
+      "PackagePath": "staticwebassets\\img\\genres\\sports.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\genres\\strategy.png",
+      "PackagePath": "staticwebassets\\img\\genres\\strategy.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\gta.png",
+      "PackagePath": "staticwebassets\\img\\gta.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\halo.png",
+      "PackagePath": "staticwebassets\\img\\halo.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\spacemarinetwo.png",
+      "PackagePath": "staticwebassets\\img\\spacemarinetwo.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\starfield.png",
+      "PackagePath": "staticwebassets\\img\\starfield.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\js\\VueApp.js",
+      "PackagePath": "staticwebassets\\js\\VueApp.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\js\\VueJs.js",
+      "PackagePath": "staticwebassets\\js\\VueJs.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GameGallery.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GameGallery.props",
+      "PackagePath": "build\\GameGallery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GameGallery.props",
+      "PackagePath": "buildMultiTargeting\\GameGallery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GameGallery.props",
+      "PackagePath": "buildTransitive\\GameGallery.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
