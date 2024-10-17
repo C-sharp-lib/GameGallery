@@ -1801,6 +1801,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\aladdinlion.png",
+      "PackagePath": "staticwebassets\\img\\aladdinlion.png"
+    },
+    {
+      "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\crusaderkings.png",
+      "PackagePath": "staticwebassets\\img\\crusaderkings.png"
+    },
+    {
       "Id": "C:\\Users\\strad\\OneDrive\\Desktop\\school\\contemporary\\GameGallery\\GameGallery\\GameGallery\\wwwroot\\img\\cyberpunk.png",
       "PackagePath": "staticwebassets\\img\\cyberpunk.png"
     },

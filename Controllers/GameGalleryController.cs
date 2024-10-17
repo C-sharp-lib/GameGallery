@@ -8,7 +8,7 @@ namespace GameGallery.Controllers
 {
     public class GameGalleryController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private ApplicationDbContext _context;
         public GameGalleryController(ApplicationDbContext context)
         {
             _context = context;
@@ -59,15 +59,32 @@ namespace GameGallery.Controllers
             }
             var game = await _context.GameGenres
                 .Where(game => game.Games.GameId == gameId)
-                .Include(g => g.Games).ThenInclude(g => g.GameReviews)
+                .Include(g => g.Games)
                 .Include(gg => gg.Genres)
                 .FirstOrDefaultAsync();
             if (game == null)
             {
                 return NotFound();
             }
+            var reviews = await _context.GameReviews.Where(u => u.Games.GameId == gameId)
+                .Include(u => u.Reviews).Include(u => u.Games).Include(u => u.Users).ToListAsync();
+            int reviewCount = _context.GameReviews.Where(u => u.Games.GameId == gameId)
+                .Include(u => u.Reviews).Count();
+            int averageRating = 0;
+            if (reviews.Any())
+            {
+                averageRating = (int)reviews.Average(r => r.Reviews.StarRating) / reviewCount;
+            }
+            if (reviews == null)
+            {
+                return NotFound();
+            }
+
             ViewBag.user = ActiveUser;
-            return View(game);
+            ViewBag.reviews = reviews;
+            ViewBag.theGame = game;
+            ViewBag.reviewCount = averageRating;
+            return View();
         }
         [HttpPost("GameGallery/AddReview/{gameId}")]
         public async Task<IActionResult> AddReview(int gameId, Reviews reviews)

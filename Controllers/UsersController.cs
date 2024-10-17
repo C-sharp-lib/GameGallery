@@ -95,15 +95,15 @@ namespace GameGallery.Controllers
         }
 
         [HttpGet("Users/Profile/{userId}")]
-        public IActionResult Profile(int userId)
+        public async Task<IActionResult> Profile(int userId)
         {
             if (ActiveUser == null)
             {
                 return RedirectToAction("Login", "Users");
             }
-            var user = _context.Users.SingleOrDefault(u => u.UserId == userId);
-            var reviews = _context.GameReviews.Where(u => u.UserId == userId)
-                .Include(u => u.Reviews).Include(u => u.Games).ToList();
+            var user = await _context.Users.SingleOrDefaultAsync(u => u.UserId == userId);
+            var reviews = await _context.GameReviews.Where(u => u.UserId == userId)
+                .Include(u => u.Reviews).Include(u => u.Games).ToListAsync();
             if (user == null)
             {
                 return View("Login");
@@ -120,6 +120,24 @@ namespace GameGallery.Controllers
         {
             HttpContext.Session.Clear();
             return RedirectToAction("Login", "Users");
+        }
+
+        [HttpPost("DeleteReviewConfirmed")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteReviewConfirmed(int reviewId)
+        {
+            if (ActiveUser == null)
+            {
+                return RedirectToAction("Login", "Users");
+            }
+            var review = await _context.Reviews.FirstOrDefaultAsync(r => r.ReviewId == reviewId);
+            if (review != null)
+            {
+                _context.Reviews.Remove(review);
+                await _context.SaveChangesAsync();
+            }
+            ViewBag.user = ActiveUser;
+            return RedirectToAction(nameof(Profile), new { id = ActiveUser.UserId });
         }
     }
 }

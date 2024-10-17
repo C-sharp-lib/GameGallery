@@ -47,8 +47,15 @@
                                     
                                         <p>@review.TruncateWords(@review.Reviews.Description)</p>
                                         <span>
-                                            <a href="!#" class="custom-btn btn-7 button"><span><i class="fa-solid fa-pen-to-square"></i></span></a>
-                                            <a href="!#" class="custom-btn btn-dark-red button"><span><i class="fa-solid fa-xmark"></i></span></a>
+                                            
+                                            <form action="#" class="edit-form">
+                                                @* <input type="hidden" name="ReviewId" value="@review.Reviews.ReviewId" /> *@
+                                                <button type="submit" class="custom-btn btn-7 button"><span><i class="fa-solid fa-pen-to-square"></i></span></button>
+                                            </form>
+                                            <form asp-action="DeleteReviewConfirmed" asp-controller="Users" method="post" class="delete-form">
+                                                <input type="hidden" name="ReviewId"  value="@review.Reviews.ReviewId"/>
+                                                <button type="submit" class="custom-btn btn-dark-red button"><span><i class="fa-solid fa-xmark"></i></span></button>
+                                            </form>
                                         </span>
                                     </div>
 

@@ -1,10 +1,14 @@
 ﻿@{
     Layout = "_Layout";
+    var reviews = ViewBag.reviews;
+    var game = ViewBag.theGame;
+    var reviewCount = ViewBag.reviewCount;
+    int averageRating = ViewBag.reviewCount;
 }
 
 <div class="container">
     <div class="product-image">
-        <img src="@Url.Content($"~/img/{Model.Games.ImageUrl}.png")" alt="@Model.Games.Title" class="product-pic">
+        <img src="@Url.Content($"~/img/{game.Games.ImageUrl}.png")" alt="@game.Games.Title" class="product-pic">
         <div class="dots">
             <a href="#!" class="active"><i>1</i></a>
             <a href="#!"><i>2</i></a>
@@ -15,23 +19,33 @@
 
     <div class="product-details">
         <header>
-            <h1 class="title">@Model.Games.Title</h1>
-            <span class="colorCat">@Model.Genres.FullName</span>
+            <h1 class="title">@game.Games.Title</h1>
+            <span class="colorCat">@game.Genres.FullName</span>
             <div class="price">
-                <span class="before">$@Model.Games.PriceBefore.ToString()</span>
-                <span class="current">$@Model.Games.Price.ToString()</span>
+                <span class="before">$@game.Games.PriceBefore.ToString()</span>
+                <span class="current">$@game.Games.Price.ToString()</span>
             </div>
             <div class="rate">
-                <a href="#!" class="active">★</a>
-                <a href="#!" class="active">★</a>
-                <a href="#!" class="active">★</a>
-                <a href="#!">★</a>
-                <a href="#!">★</a>
+                @if (reviews != null)
+                {
+                    @foreach (var review in reviews)
+                    {
+                        @for (int i = 1; i <= averageRating; i++)
+                        {
+                            <i class="fas fa-star"></i>
+                        }
+
+                        
+                    }
+                }
+                <button type="button" class="btn bg-gradient-danger btn-block mb-3 d-block mt-2" data-bs-toggle="modal" data-bs-target="#exampleModalLong">
+                    @game.Games.Title Reviews
+                </button>
             </div>
         </header>
         <div class="text-container">
             <h5>Description</h5>
-            <p>@Model.Games.Description</p>
+            <p>@game.Games.Description</p>
         </div>
         @*         <div class="controls">
         <div class="color">
@@ -65,17 +79,17 @@
 
 
 <div class="col-12 col-md-6">
-    
+
     <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="card">
                         <div class="card-header pb-0 text-left">
-                            <h3 class="font-weight-bolder text-info text-gradient">Review @Model.Games.Title</h3>
+                            <h3 class="font-weight-bolder text-info text-gradient">Review @game.Games.Title</h3>
                         </div>
                         <div class="card-body">
-                            <form role="form text-left" asp-action="AddReview" asp-controller="GameGallery" asp-route-id="@Model.Games.GameId" method="post">
+                            <form role="form text-left" asp-action="AddReview" asp-controller="GameGallery" asp-route-id="@game.Games.GameId" method="post">
                                 <label>Rating</label>
                                 <div class="input-group mb-3">
                                     <select class="form-control" name="StarRating" id="StarRating">
@@ -88,15 +102,71 @@
                                 </div>
                                 <label>Review</label>
                                 <div class="input-group mb-3">
-                                    <textarea  class="form-control" placeholder="Leave A Review" name="Description" rows="3" cols="10" id="Review"></textarea>
+                                    <textarea class="form-control" placeholder="Leave A Review" name="Description" rows="3" cols="10" id="Review"></textarea>
                                 </div>
                                 <div class="text-center">
                                     <button type="submit" class="custom-btn btn-3 button"><span>Add Review</span></button>
                                 </div>
                             </form>
                         </div>
-                        
+
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="col-12 col-xs-12 col-sm-12 col-md-8 offset-md-2">
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content dark-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">@game.Games.Title Reviews</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    @if (reviews != null)
+                    {
+                        @foreach (var review in reviews)
+                        {
+                            <div class="card card-background move-on-hover card-review game">
+                                <div class="full-background" style="background-image: url('@Url.Content($"~/img/{review.Games.ImageUrl}.png")')"></div>
+                                <div class="card-body">
+                                    <div class="overlay">
+                                        <h5 class="text-center text-white ubuntu-bold">@review.Games.Title</h5>
+                                        <p class="text-center text-white lead ubuntu-bold">@review.Users.Username</p>
+                                        <div class="rate">
+                                            @for (int i = 1; i <= 5; i++)
+                                            {
+                                                if (i <= (int)review.Reviews.StarRating)
+                                                {
+                                                    <i class="fas fa-star"></i>
+                                                }
+                                                else
+                                                {
+                                                    <i class="far fa-star"></i>
+                                                }
+                                            }
+                                        </div>
+
+                                        <p>@review.Reviews.Description</p>
+                                        
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        }
+                    }
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="custom-btn btn-3 button" data-bs-dismiss="modal"><span>Close</span></button>
+                     @* <button type="button" class="btn bg-gradient-primary">Save changes</button> *@
                 </div>
             </div>
         </div>

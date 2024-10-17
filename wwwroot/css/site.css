@@ -13,6 +13,7 @@
   --lock-stroke: 2.5px;
   
 }
+
 .spacer {
     margin: 100px 0 100px 0 !important;
 }
@@ -35,11 +36,27 @@ body > header > nav > div > div > div > ul > li > ul {
     nav {
         background-color: #181828;
     }
-
-
-.card-dark {
-    background-color: rgb(22,22,22,0.4);
+.dark-modal > .modal-body {
+    width: 100%;
+    height: auto;
 }
+button.btn-close > span {
+    color: red;
+    font-size: 30px;
+    position: relative;
+    bottom: 100%;
+}
+.card.card-background.move-on-hover.card-review.game {
+    width: 100% !important;
+    height: auto !important;
+}
+    .dark-modal > .modal-footer,
+    .dark-modal > .modal-header,
+    .dark-modal > .modal-body,
+    .card-dark {
+        background-color: rgba(22,22,22,1) !important;
+        color: #fff;
+    }
 body > div.container-fluid > main > div:nth-child(2) > div > button {
     width: 50vw !important;
     position: relative !important;
@@ -131,10 +148,25 @@ a {
         font-style: normal;
         text-align: center;
     }
-
+    .edit-form {
+        width: 100px;
+        float: left;
+       
+    }
+    .delete-form {
+        width: 100px;
+        float: right;
+    }
+    .edit-form > .custom-btn,
+    .delete-form > .custom-btn {
+        width: 90% !important;
+        background-color: rgba(22,22,22,0.7) !important;
+        color: white !important;
+    }
 .card.card-background.move-on-hover.card-review {
     width: 20vw !important;
     height: auto;
+    margin: 15px 0 15px 0;
 }
 .card-img-top {
     height: 250px;
@@ -189,7 +221,7 @@ a {
                 -o-transition: all .9s ease;
                 -ms-transition: all .9s ease;
                 width: 100%;
-                height: 300px;
+                height: 40vh;
             }
 
         #cards_landscape_wrap-2 .card-flyer:hover .image-box img {
@@ -293,7 +325,7 @@ a {
     line-height: 45px;
     padding: 0;
     border: none;
-    width: 20% !important;
+    width: 100% !important;
 }
 
     .btn-dark-red span {
@@ -374,7 +406,7 @@ a {
     line-height: 45px;
     padding: 0;
     border: none;
-    width: 20% !important;
+    width: 100% !important;
 }
 
     .btn-7 span {
