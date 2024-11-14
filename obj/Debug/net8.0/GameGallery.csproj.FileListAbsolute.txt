@@ -138,3 +138,6 @@ C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\Game
 C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\GameGallery\bin\Debug\net8.0\wwwroot\img\spacemarinetwo.png
 C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\GameGallery\bin\Debug\net8.0\wwwroot\img\starfield.png
 C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\GameGallery\obj\Debug\net8.0\GameGallery.sourcelink.json
+C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\GameGallery\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\GameGallery\bin\Debug\net8.0\Areas\Admin\wwwroot\img\spacemarinetwo.png
+C:\Users\strad\OneDrive\Desktop\school\contemporary\GameGallery\GameGallery\GameGallery\bin\Debug\net8.0\Areas\Admin\wwwroot\img\starfield.png

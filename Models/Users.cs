@@ -23,7 +23,7 @@ namespace GameGallery.Models
 
         public string Username { get; set; }
         public ICollection<GameReviews> GameReviews { get; set; }
-        public ICollection<UserComments> UserComments { get; set; }
+        public ICollection<UserBlogComments> UserBlogComments { get; set; }
         public ICollection<BlogPosts> BlogPosts { get; set; }
         public Users()
         {

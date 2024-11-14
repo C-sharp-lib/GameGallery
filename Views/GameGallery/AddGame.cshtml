@@ -1,0 +1,96 @@
+﻿@model GameGallery.Models.GameViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-12 col-sm-12 col-md-8 offset-md-2">
+        <div class="card-form mt-7 mb-7 m-7">
+            <h1 class="ubuntu-bold text-success text-center m-7 mb-0">Add Game</h1>
+            <div class="card-body p-7">
+                <form asp-action="AddGame" asp-controller="GameGallery" method="post" id="AddGameForm">
+                    <div asp-validation-summary="All" class="text-danger ubuntu-bold list-no-style"></div>
+                    <div class="form-group">
+                        <div class="bg-danger">
+                            <span asp-validation-for="ImageUrl" class="text-center text-white ubuntu-bold"></span>
+                        </div>
+                        <br>
+                        <label asp-for="ImageUrl" class="ubuntu-bold text-info">Image Url</label>
+                        <input type="text" asp-for="ImageUrl" class="form-control ubuntu-bold" placeholder="Image Name For Game">
+                    </div>
+                    <div class="form-group">
+                        <div class="alert-outline-danger validationAlert" role="alert">
+                            <span asp-validation-for="Title" class="text-danger ubuntu-bold"></span>
+                        </div>
+                        <br>
+                        <label asp-for="Title" class="ubuntu-bold text-info">Title</label>
+                        <input asp-for="Title" class="form-control" placeholder="Title For Game">
+                    </div>
+                    <div class="form-group">
+                        <div class="alert-outline-danger validationAlert" role="alert">
+                            <span asp-validation-for="Price" class="text-white text-center"></span>
+                        </div>
+                        <br>
+                        <label asp-for="Price" class="ubuntu-bold text-info">Price</label>
+                        <input asp-for="Price" class="form-control" placeholder="Price For Game">
+                    </div>
+                    <div class="form-group">
+                        <div class="alert-outline-danger validationAlert" role="alert">
+                            <span asp-validation-for="PriceBefore" class="text-white text-center ubuntu-bold"></span>
+                        </div>
+                        <br>
+                        <label asp-for="PriceBefore" class="ubuntu-bold text-info">Starting Price</label>
+                        <input asp-for="PriceBefore" class="form-control ubuntu-bold" placeholder="Price Starting For Game">
+                    </div>
+                    <div class="form-group">
+                        <div class="alert-outline-danger validationAlert" role="alert">
+                            <span asp-validation-for="Developers" class="text-white text-center ubuntu-bold"></span>
+                        </div>
+                        <br>
+                        <label asp-for="Developers" class="ubuntu-bold text-info">Developers</label>
+                        <input asp-for="Developers" class="form-control" placeholder="Developers For Game">
+                    </div>
+                    <div class="form-group">
+                        <div class="alert-outline-danger validationAlert" role="alert">
+                            <span asp-validation-for="Producers" class="text-white text-center ubuntu-bold"></span>
+                        </div>
+                        <br>
+                        <label asp-for="Producers" class="ubuntu-bold text-info">Producers</label>
+                        <input asp-for="Producers" class="form-control ubuntu-bold" placeholder="Producers For Game">
+                    </div>
+                    <div class="form-group">
+                        <div class="alert-outline-danger validationAlert" role="alert">
+                            <span asp-validation-for="System" class="text-white text-center ubuntu-bold"></span>
+                        </div>
+                        <br>
+                        <label asp-for="System" class="ubuntu-bold text-info">System</label>
+                        <input asp-for="System" class="form-control ubuntu-bold" placeholder="System For Game">
+                    </div>
+                    <div class="form-group">
+                        <div class="alert-outline-danger validationAlert" role="alert">
+                            <span asp-validation-for="Description" class="text-white text-center ubuntu-bold"></span>
+                        </div>
+                        <br>
+                        <label asp-for="Description" class="ubuntu-bold text-info">Description</label>
+                        <textarea asp-for="Description" class="form-control ubuntu-bold" cols="30" rows="10" placeholder="Game Description"></textarea>
+                    </div>
+                    <button type="submit" class="custom-btn btn-4 button"><span>Add Game</span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function previewImage(event) {
+            const preview = document.getElementById('image-preview');
+            preview.src = URL.createObjectURL(event.target.files[0]);
+            preview.style.display = 'block';
+        }
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    </script>
+}

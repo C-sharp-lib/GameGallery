@@ -1,5 +1,5 @@
 ﻿@{
-    Layout = "_Layout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
     var gameReviews = ViewBag.gameReviews;
     var user = ViewBag.theUser;
 }
@@ -9,11 +9,11 @@
     <div class="col-12 col-md-5 col-lg-5">
         <div id="app" class="container mt-7 m-8">
             <card data-image="@Url.Content($"~/img/profile/{user.ImageUrl}.png")">
-                <h3 slot="header"><span id="typed-1"></span></h3>
-                <div id="typed-strings">
-                    <h1></h1>
+                <h3 slot="header" class="ubuntu-bold"><span id="typed-1"></span></h3>
+                <div id="typed-strings" class="ubuntu-bold">
+                    <h1 class="ubuntu-bold"></h1>
                 </div>
-                <p slot="content"><strong>Joined: </strong>@user.CreatedAt.ToLongDateString()</p>
+                <p slot="content" class="ubuntu-bold"><strong>Joined: </strong>@user.CreatedAt.ToLongDateString()</p>
             </card>
         </div>
     </div>
@@ -21,7 +21,7 @@
         <div class="container review-container mt-5">
             <div class="product-image review-container scroll-container">
                 <div class="user-review-header">
-                    <h6 class="text-center text-white mt-1 mb-1">@user.FirstName's User Reviews</h6>
+                    <h6 class="text-center text-white mt-1 mb-1 ubuntu-bold">@user.FirstName's User Reviews</h6>
                     @if (gameReviews != null)
                     {
                         @foreach (var review in gameReviews)
@@ -30,30 +30,30 @@
                                 <div class="full-background" style="background-image: url('@Url.Content($"~/img/{review.Games.ImageUrl}.png")')"></div>
                                 <div class="card-body">
                                     <div class="overlay">
-                                    <h5 class="text-center text-white ubuntu-bold">@review.Games.Title</h5>
-                                    <div class="rate">
-                                        @for (int i = 1; i <= 5; i++)
-                                        {
-                                            if (i <= (int)review.Reviews.StarRating)
+                                        <h5 class="text-center text-white ubuntu-bold">@review.Games.Title</h5>
+                                        <div class="rate">
+                                            @for (int i = 1; i <= 5; i++)
                                             {
-                                                <i class="fas fa-star"></i>
+                                                if (i <= (int)review.Reviews.StarRating)
+                                                {
+                                                    <i class="fas fa-star"></i>
+                                                }
+                                                else
+                                                {
+                                                    <i class="far fa-star"></i>
+                                                }
                                             }
-                                            else
-                                            {
-                                                <i class="far fa-star"></i>
-                                            }
-                                        }
-                                    </div>
-                                    
+                                        </div>
+
                                         <p>@review.TruncateWords(@review.Reviews.Description)</p>
                                         <span>
-                                            
+
                                             <form action="#" class="edit-form">
                                                 @* <input type="hidden" name="ReviewId" value="@review.Reviews.ReviewId" /> *@
                                                 <button type="submit" class="custom-btn btn-7 button"><span><i class="fa-solid fa-pen-to-square"></i></span></button>
                                             </form>
                                             <form asp-action="DeleteReviewConfirmed" asp-controller="Users" method="post" class="delete-form">
-                                                <input type="hidden" name="ReviewId"  value="@review.Reviews.ReviewId"/>
+                                                <input type="hidden" name="ReviewId" value="@review.Reviews.ReviewId" />
                                                 <button type="submit" class="custom-btn btn-dark-red button"><span><i class="fa-solid fa-xmark"></i></span></button>
                                             </form>
                                         </span>
@@ -74,24 +74,12 @@
 
             <div class="product-details">
                 <header>
-                    <h1 class="title">@user.FullName()</h1>
-
-                    <span class="colorCat">@user.Username</span>
-                    <div class="price">
-                        @* <span class="before">$@Model.Games.PriceBefore.ToString()</span>
-                        <span class="current">$@Model.Games.Price.ToString()</span> *@
-                    </div>
-                    @* <div class="rate">
-                    <a href="#!" class="active">★</a>
-                    <a href="#!" class="active">★</a>
-                    <a href="#!" class="active">★</a>
-                    <a href="#!">★</a>
-                    <a href="#!">★</a>
-                    </div> *@
+                    <h1 class="title ubuntu-bold">@user.FullName()</h1>
+                    <span class="colorCat ubuntu-bold">@user.Username</span>
                 </header>
                 <div class="text-container">
-                    <h5>Description</h5>
-                    <p>@user.Bio</p>
+                    <h5 class="ubuntu-bold">Description</h5>
+                    <p class="ubuntu-bold">@user.Bio</p>
                 </div>
                 @*         <div class="controls">
                 <div class="color">
@@ -119,6 +107,34 @@
                 <a class="custom-btn btn-3 button"><span>Add To Cart</span></a>
                 </div>
                 </div> *@
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2 ">
+        <div class="p-5 mb-7 m-8 mt-0">
+            <div class="card-form shadow-lg ubuntu-bold">
+                <h3 class="card-title mt-3 mb-3 text-center text-white p-3">Edit @user.FirstName's Profile</h3>
+                <div class="card-body p-5">
+                    <form asp-action="UpdateProfile" asp-controller="Users" asp-route-id="@user.UserId" method="post">
+                        <div class="form-group">
+                            <label for="firstName" class="text-info">First Name</label>
+                            <input name="firstName" type="text" class="form-control" value="@user.FirstName">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName" class="text-info">Last Name</label>
+                            <input name="lastName" type="text" class="form-control" value="@user.LastName">
+                        </div>
+                        <label for="bio" class="text-info">Bio</label>
+                        <textarea name="bio" class="form-control" rows="5" cols="10"> @user.Bio </textarea>
+                        <div class="form-group">
+                            <label for="imageUrl" class="text-info">Image Url</label>
+                            <input name="imageUrl" type="text" class="form-control" value="@user.ImageUrl">
+                        </div>
+                        <button type="submit" class="custom-btn btn-3 button"><span>Update User</span></button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

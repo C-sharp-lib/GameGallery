@@ -139,5 +139,25 @@ namespace GameGallery.Controllers
             ViewBag.user = ActiveUser;
             return RedirectToAction(nameof(Profile), new { id = ActiveUser.UserId });
         }
+        [HttpPost("Users/UpdateProfile/{UserId}")]
+        public async Task<IActionResult> UpdateProfile(int UserId, string firstName, string lastName, string bio, string imageUrl) 
+        {
+            if (ActiveUser == null)
+            {
+                return RedirectToAction("Login", "Users");
+            }
+            if (ModelState.IsValid)
+            {
+                Users user = await _context.Users.Where(u => u.UserId == UserId).SingleOrDefaultAsync();
+                user.FirstName = firstName;
+                user.LastName = lastName;
+                user.Bio = bio;
+                user.ImageUrl = imageUrl;
+                _context.Users.Update(user);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Profile), new {Id = UserId});
+            }
+            return View(nameof(Profile), new { Id = UserId });
+        }
     }
 }

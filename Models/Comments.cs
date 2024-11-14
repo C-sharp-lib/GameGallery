@@ -9,7 +9,7 @@ namespace GameGallery.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int CommentId { get; set; }
         public string Description { get; set; }
-        public ICollection<UserComments> UserComments { get; set; }
+        public ICollection<UserBlogComments> UserBlogComments { get; set; }
 
         public Comments()
         {

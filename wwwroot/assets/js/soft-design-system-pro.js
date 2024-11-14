@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Soft UI Design System PRO - v1.1.1
+* Soft UI Design System 3 PRO - v1.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-design-system
@@ -24,36 +24,20 @@ function smoothToPricing(id) {
   }
 }
 
-// when input is focused add focused class for style
-function focused(el) {
-  if (el.parentElement.classList.contains('input-group')) {
-    el.parentElement.classList.add('focused');
-  }
-}
-
-// when input is focused remove focused class for style
-function defocused(el) {
-  if (el.parentElement.classList.contains('input-group')) {
-    el.parentElement.classList.remove('focused');
-  }
-}
-
-// helper for adding on all elements multiple attributes
-function setAttributes(el, options) {
-  Object.keys(options).forEach(function(attr) {
-    el.setAttribute(attr, options[attr]);
-  })
-}
-
-// adding on inputs attributes for calling the focused and defocused functions
-if (document.querySelectorAll('.input-group').length != 0) {
-  var allInputs = document.querySelectorAll('input.form-control');
-  allInputs.forEach(el => setAttributes(el, {
-    "onfocus": "focused(this)",
-    "onfocusout": "defocused(this)"
-  }));
-}
-
+// Debounce function
+function debounce(func, wait, immediate) {
+  var timeout;
+  return function() {
+    var context = this,
+      args = arguments;
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    }, wait);
+    if (immediate && !timeout) func.apply(context, args);
+  };
+};
 
 // initialization of Popovers
 var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
@@ -86,6 +70,55 @@ var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
+
+window.onload = function() {
+  // Material Design Input function
+  var inputs = document.querySelectorAll('input');
+
+  for (var i = 0; i < inputs.length; i++) {
+    inputs[i].addEventListener('focus', function(e) {
+      this.parentElement.classList.add('is-focused');
+    }, false);
+
+    inputs[i].onkeyup = function(e) {
+      if (this.value != "") {
+        this.parentElement.classList.add('is-filled');
+      } else {
+        this.parentElement.classList.remove('is-filled');
+      }
+    };
+
+    inputs[i].addEventListener('focusout', function(e) {
+      if (this.value != "") {
+        this.parentElement.classList.add('is-filled');
+      }
+      this.parentElement.classList.remove('is-focused');
+    }, false);
+  }
+
+  // Ripple Effect
+  var ripples = document.querySelectorAll('.btn');
+
+  for (var i = 0; i < ripples.length; i++) {
+    ripples[i].addEventListener('click', function(e) {
+      var targetEl = e.target;
+      var rippleDiv = targetEl.querySelector('.ripple');
+
+      rippleDiv = document.createElement('span');
+      rippleDiv.classList.add('ripple');
+      rippleDiv.style.width = rippleDiv.style.height = Math.max(targetEl.offsetWidth, targetEl.offsetHeight) + 'px';
+      targetEl.appendChild(rippleDiv);
+
+      rippleDiv.style.left = (e.offsetX - rippleDiv.offsetWidth / 2) + 'px';
+      rippleDiv.style.top = (e.offsetY - rippleDiv.offsetHeight / 2) + 'px';
+      rippleDiv.classList.add('ripple');
+      setTimeout(function() {
+        rippleDiv.parentElement.removeChild(rippleDiv);
+      }, 600);
+    }, false);
+  }
+};
+
 // Multi Level Dropdown
 function dropDown(a) {
   if (!document.querySelector('.dropdown-hover')) {
@@ -116,43 +149,81 @@ function dropDown(a) {
 // Colored shadows from Cards
 if (document.querySelector('.blur-shadow-image')) {
   var shadowCards = document.querySelectorAll('.blur-shadow-image');
+  var shadowCardsRounded = document.querySelectorAll('.blur-shadow-image.rounded-circle');
 
-  for (var i = 0; i < shadowCards.length; i++) {
-    var div = document.createElement("DIV");
-    shadowCards[i].parentElement.appendChild(div);
-    div.classList.add('colored-shadow');
+  if (shadowCardsRounded) {
+    for (var i = 0; i < shadowCardsRounded.length; i++) {
+      var div = document.createElement("DIV");
+      shadowCardsRounded[i].parentElement.appendChild(div);
+      div.classList.add('colored-shadow', 'rounded');
 
+      var currentSrc = shadowCardsRounded[i].children[0].getAttribute('src');
+      var el = shadowCardsRounded[i].nextElementSibling;
 
-    var currentSrc = shadowCards[i].children[0].getAttribute('src');
-    var el = shadowCards[i].nextElementSibling;
+      el.style.backgroundImage = 'url(' + currentSrc + ')';
+    }
+  }
+  if (shadowCards) {
+    for (var i = 0; i < shadowCards.length; i++) {
+      var div = document.createElement("DIV");
+      shadowCards[i].parentElement.appendChild(div);
+      div.classList.add('colored-shadow');
 
-    el.style.backgroundImage = 'url(' + currentSrc + ')';
+      var currentSrc = shadowCards[i].children[0].getAttribute('src');
+      var el = shadowCards[i].nextElementSibling;
+
+      el.style.backgroundImage = 'url(' + currentSrc + ')';
+    }
   }
 }
 
 // Colored shadows for Avatars
 if (document.querySelector('.blur-shadow-avatar')) {
-
   var shadowCards = document.querySelectorAll('.blur-shadow-avatar');
+  var shadowCardsRounded = document.querySelectorAll('.blur-shadow-avatar.rounded-circle');
 
-  for (var i = 0; i < shadowCards.length; i++) {
+  if (shadowCardsRounded) {
+    for (var i = 0; i < shadowCardsRounded.length; i++) {
 
-    var div = document.createElement("DIV");
-    shadowCards[i].parentElement.appendChild(div);
-    div.classList.add('colored-shadow', 'start-0', 'end-0', 'mx-auto');
+      var div = document.createElement("DIV");
+      shadowCardsRounded[i].parentElement.appendChild(div);
+      div.classList.add('colored-shadow', 'rounded', 'start-0', 'end-0', 'mx-auto');
 
-    var avatarClasses = ['avatar-xs', 'avatar-sm', 'avatar-lg', 'avatar-xl', 'avatar-xxl'];
+      var avatarClasses = ['avatar-xs', 'avatar-sm', 'avatar-lg', 'avatar-xl', 'avatar-xxl'];
 
-    for (var k = 0; k < avatarClasses.length; k++) {
-      if (shadowCards[i].firstElementChild.classList.contains(avatarClasses[k])) {
-        div.classList.add(avatarClasses[k]);
+      for (var k = 0; k < avatarClasses.length; k++) {
+        if (shadowCardsRounded[i].firstElementChild.classList.contains(avatarClasses[k])) {
+          div.classList.add(avatarClasses[k]);
+        }
       }
+
+      var currentSrc = shadowCardsRounded[i].children[0].getAttribute('src');
+      var el = shadowCardsRounded[i].nextElementSibling;
+
+      el.style.backgroundImage = 'url(' + currentSrc + ')';
     }
+  }
+  if (shadowCards) {
 
-    var currentSrc = shadowCards[i].children[0].getAttribute('src');
-    var el = shadowCards[i].nextElementSibling;
+    for (var i = 0; i < shadowCards.length; i++) {
 
-    el.style.backgroundImage = 'url(' + currentSrc + ')';
+      var div = document.createElement("DIV");
+      shadowCards[i].parentElement.appendChild(div);
+      div.classList.add('colored-shadow', 'start-0', 'end-0', 'mx-auto');
+
+      var avatarClasses = ['avatar-xs', 'avatar-sm', 'avatar-lg', 'avatar-xl', 'avatar-xxl'];
+
+      for (var k = 0; k < avatarClasses.length; k++) {
+        if (shadowCards[i].firstElementChild.classList.contains(avatarClasses[k])) {
+          div.classList.add(avatarClasses[k]);
+        }
+      }
+
+      var currentSrc = shadowCards[i].children[0].getAttribute('src');
+      var el = shadowCards[i].nextElementSibling;
+
+      el.style.backgroundImage = 'url(' + currentSrc + ')';
+    }
   }
 }
 
@@ -242,39 +313,20 @@ if (document.querySelector('#google-maps')) {
 var total = document.querySelectorAll('.nav-pills');
 
 total.forEach(function(item, i) {
-  if (item.querySelector('.moving-tab')) {
-    item.querySelector('.moving-tab').remove();
-  }
-
   var moving_div = document.createElement('div');
-  var first_li = item.querySelector('li .nav-link.active');
+  var first_li = item.querySelector('li:first-child .nav-link');
   var tab = first_li.cloneNode();
   tab.innerHTML = "-";
 
   moving_div.classList.add('moving-tab', 'position-absolute', 'nav-link');
   moving_div.appendChild(tab);
+  item.appendChild(moving_div);
 
   var list_length = item.getElementsByTagName("li").length;
-  let nodes = Array.from(first_li.closest('ul').children)
-  let index = nodes.indexOf(first_li.closest('li')) + 1;
-  let sum = 0;
 
   moving_div.style.padding = '0px';
-  moving_div.style.width = item.querySelector('li .nav-link.active').offsetWidth + 'px';
-
-  if (item.classList.contains('flex-column')) {
-    for (var j = 1; j < index; j++) {
-      sum += item.querySelector('li:nth-child(' + j + ')').offsetHeight;
-    }
-    moving_div.style.transform = 'translate3d(0px,' + sum + 'px, 0px)';
-  } else {
-    for (var j = 1; j < index; j++) {
-      sum += item.querySelector('li:nth-child(' + j + ')').offsetWidth;
-    }
-    moving_div.style.transform = 'translate3d(' + sum + 'px, 0px, 0px)';
-  }
-
-  item.appendChild(moving_div);
+  moving_div.style.width = item.querySelector('li:nth-child(1)').offsetWidth + 'px';
+  moving_div.style.transform = 'translate3d(0px, 0px, 0px)';
   moving_div.style.transition = '.5s ease';
 
   item.onmouseover = function(event) {

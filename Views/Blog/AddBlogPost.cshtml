@@ -1,0 +1,48 @@
+﻿@model GameGallery.Models.BlogPostViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+
+<div class="row">
+    <div class="col-12 col-sm-12 col-md-6 offset-md-3">
+        <div class="card-form shadow-xl">
+            <div asp-validation-summary="All" class="text-danger ubuntu-bold list-no-style"></div>
+            <div class="card-body p-5">
+                <form asp-action="UploadBlogPost" asp-controller="Blog" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="ImageOne"></label>
+                        <input asp-for="ImageOne" type="file" class="form-control" />
+                        <span asp-validation-for="ImageOne" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ImageTwo"></label>
+                        <input asp-for="ImageTwo" type="file" class="form-control" />
+                        <span asp-validation-for="ImageTwo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ImageThree"></label>
+                        <input asp-for="ImageThree" type="file" class="form-control" />
+                        <span asp-validation-for="ImageThree" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Title">Title</label>
+                        <input type="text" asp-for="Title" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Subtitle">Subtitle</label>
+                        <input type="text" asp-for="Subtitle" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Description">Descritpion</label>
+                        <textarea asp-for="Description" id="Description" cols="10" rows="5" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

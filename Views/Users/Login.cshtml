@@ -1,29 +1,37 @@
 ﻿@model GameGallery.Models.LoginViewModel
 @{
-    Layout = "_Layout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div class="row">
     <div class="col-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3">
-        <div class="card card-dark shadow-lg p-3 border-radius-lg mt-7">
-            <h1 class="text-center text-info">Login</h1>
+        <div class="card card-dark shadow-lg p-3 border-radius-lg mt-7 mx-auto">
+            <h1 class="text-center text-success ubuntu-bold">Login</h1>
             <div class="card-body">
                 <form asp-action="LoginUser" asp-controller="Users" method="post" id="LoginForm">
+                    <div asp-validation-summary="All" class="text-danger ubuntu-bold list-no-style"></div>
                     <div class="form-group">
                         <div class="alert-outline-danger validationAlert" role="alert">
-                            <span asp-validation-for="Email" class="text-danger"></span>
+                            <span asp-validation-for="Email" class="text-danger ubuntu-bold"></span>
                         </div>
-                        <input type="email" name="Email" class="form-control" placeholder="Email" autocomplete="off">
+                        <input type="email" name="Email" class="form-control ubuntu-bold" placeholder="Email" autocomplete="off">
                     </div>
                     <div class="form-group">
                         <div class="alert-outline-danger validationAlert" role="alert">
-                            <span asp-validation-for="Email" class="text-danger"></span>
+                            <span asp-validation-for="Email" class="text-danger ubuntu-bold"></span>
                         </div>
-                        <input type="password" name="Password" class="form-control" placeholder="Password" autocomplete="off">
+                        <input type="password" name="Password" class="form-control ubuntu-bold" placeholder="Password" autocomplete="off">
                     </div>
-                    <button type="submit" class="custom-btn btn-3 button"><span>Login</span></button>
+                    <button type="submit" class="custom-btn btn-4 button"><span class="ubuntu-bold">Login</span></button>
                 </form>
             </div>
         </div>
     </div>
 </div>
+@section Scripts {
+    <script>
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    </script>
+}

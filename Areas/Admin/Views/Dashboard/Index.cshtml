@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var games = ViewBag.Games;
+}
+
+
+<div class="row">
+    <div class="col-12">
+        <div class="card shadow-lg bg-dark">
+            <div class="card-body">
+                <div class="table-container">
+                <table class="table table-hover table-borderless table-striped">
+                    <thead>
+                        <tr>
+                            <th class="text-gradient text-primary">Id</th>
+                            <th class="text-gradient text-primary">Image</th>
+                            <th class="text-gradient text-primary">Title</th>
+                            <th class="text-gradient text-primary">Price</th>
+                            <th class="text-gradient text-primary">System</th>
+                            <th class="text-gradient text-primary">Producers</th>
+                            <th class="text-gradient text-primary">Developers</th>
+                            <th class="text-gradient text-primary">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (games != null)
+                        {
+                            @foreach (var game in games)
+                            {
+                                <tr>
+                                    <td>@game.GameId</td>
+                                            <td><img class="img-fluid" width="100" height="100" src="@Url.Content($"~/Admin/img/{game.ImageUrl}.png")" /></td>
+                                    <td>@game.Title</td>
+                                    <td>@game.Price.ToString("C")</td>
+                                    <td>@game.System</td>
+                                    <td>@game.Producers</td>
+                                    <td>@game.Developers</td>
+                                    <td>
+                                        <a href="" class="btn bg-gradient-info btn-sm"><i class="fa-solid fa-list"></i></a>
+                                        <a href="" class="btn bg-gradient-primary btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
+                                        <a href="" class="btn bg-gradient-danger btn-sm"><i class="fa-solid fa-trash-can"></i></a>
+                                    </td>
+                                </tr>    
+                            }
+                        }
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,5 +1,6 @@
 using GameGallery.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -33,6 +34,53 @@ namespace GameGallery.Controllers
                 .ToListAsync();
             ViewBag.user = ActiveUser;
             return View(genreList);
+        }
+        public IActionResult AddGame() 
+        {
+            if (ActiveUser == null) 
+            {
+                return RedirectToAction("Login", "Users");
+            }
+            ViewBag.user = ActiveUser;
+            return View();
+        }
+        [HttpPost("GameGallery/AddGame")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddGame(GameViewModel game, IFormFile image)
+        {
+            if (ActiveUser == null)
+            {
+                return RedirectToAction("Login", "Users");
+            }
+            if (ModelState.IsValid)
+            {       
+                  Games games = new Games
+                    {
+                        Title = game.Title,
+                        Description = game.Description,
+                        Developers = game.Developers,
+                        Producers = game.Producers,
+                        Price = game.Price,
+                        PriceBefore = game.PriceBefore,
+                        System = game.System,
+                        ImageUrl = game.ImageUrl
+                    };
+                    ViewBag.user = ActiveUser;
+                    _context.Games.Add(games);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction("Index", "GameGallery");
+                }
+            else
+            {
+                foreach (var modelState in ModelState.Values) 
+                {
+                    foreach (var error in modelState.Errors) 
+                    {
+                        ViewBag.Error = error.ErrorMessage;
+                    }
+                }
+            }
+            return View(nameof(AddGame));
         }
         [HttpGet("GameGallery/GetGames/{genreId}")]
         public async Task<IActionResult> GetGames(int genreId)

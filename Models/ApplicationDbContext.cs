@@ -12,8 +12,9 @@ namespace GameGallery.Models
         public DbSet<Reviews> Reviews { get; set; }
         public DbSet<Comments> Comments { get; set; }
         public DbSet<Genres> Genres { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
         public DbSet<GameReviews> GameReviews { get; set; }
-        public DbSet<UserComments> UserComments { get; set; }
+        public DbSet<UserBlogComments> UserBlogComments { get; set; }
         public DbSet<GameGenres> GameGenres { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -31,8 +32,10 @@ namespace GameGallery.Models
                 .HasKey(c => new { c.CommentId });
             modelBuilder.Entity<Genres>()
                 .HasKey(gg => new { gg.GenreId });
-            modelBuilder.Entity<UserComments>()
-                .HasKey(bi => new { bi.UserId, bi.CommentId });
+            modelBuilder.Entity<CartItem>()
+                .HasKey(c => new { c.CartItemId });
+            modelBuilder.Entity<UserBlogComments>()
+                .HasKey(bi => new { bi.UserId, bi.CommentId, bi.BlogPostId });
             modelBuilder.Entity<GameReviews>()
                 .HasKey(ggg => new { ggg.GameId, ggg.ReviewId, ggg.UserId });
             modelBuilder.Entity<GameGenres>()
@@ -49,13 +52,13 @@ namespace GameGallery.Models
                 .HasOne(grrr => grrr.Users)
                 .WithMany(grrr => grrr.GameReviews)
                 .HasForeignKey(grrr => grrr.UserId);
-            modelBuilder.Entity<UserComments>()
+            modelBuilder.Entity<UserBlogComments>()
                 .HasOne(u => u.Comments)
-                .WithMany(u => u.UserComments)
+                .WithMany(u => u.UserBlogComments)
                 .HasForeignKey(u => u.CommentId);
-            modelBuilder.Entity<UserComments>()
+            modelBuilder.Entity<UserBlogComments>()
                 .HasOne(u => u.Users)
-                .WithMany(u => u.UserComments)
+                .WithMany(u => u.UserBlogComments)
                 .HasForeignKey(u => u.UserId);
             modelBuilder.Entity<GameGenres>()
                 .HasOne(g => g.Games)
@@ -66,9 +69,9 @@ namespace GameGallery.Models
                 .WithMany(gg => gg.GameGenres)
                 .HasForeignKey(fk => fk.GenreId);
             modelBuilder.Entity<BlogPosts>()
-                .HasOne(bt => bt.User)
-                .WithMany(bt => bt.BlogPosts)
-                .HasForeignKey(bt => bt.UserBlogId);
+                .HasOne(u => u.User)
+                .WithMany(u => u.BlogPosts)
+                .HasForeignKey(u => u.UserId);
         }
     }
 }

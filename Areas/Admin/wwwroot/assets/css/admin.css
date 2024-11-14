@@ -1,0 +1,19 @@
+﻿table > tbody > tr > td > a > i.fa-solid {
+    font-size: 20px !important;
+}
+table > tbody > tr > td {
+    color: white;
+}
+nav.navbar.navbar-main.navbar-expand-lg {
+    background-color: rgba(28, 28, 28, 0.5) !important;
+}
+
+.table-container {
+    max-height: 600px;
+    overflow-y: auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}

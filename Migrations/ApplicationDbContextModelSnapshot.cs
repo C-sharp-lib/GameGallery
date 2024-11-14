@@ -36,13 +36,13 @@ namespace GameGallery.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrlOne")
+                    b.Property<string>("ImageOne")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrlThree")
+                    b.Property<string>("ImageThree")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrlTwo")
+                    b.Property<string>("ImageTwo")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Subtitle")
@@ -54,14 +54,42 @@ namespace GameGallery.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("UserBlogId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("BlogPostId");
 
-                    b.HasIndex("UserBlogId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("BlogPosts");
+                });
+
+            modelBuilder.Entity("GameGallery.Models.CartItem", b =>
+                {
+                    b.Property<int>("CartItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CartItemId"));
+
+                    b.Property<int>("GameId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("GamesGameId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasPrecision(10, 2)
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("CartItemId");
+
+                    b.HasIndex("GamesGameId");
+
+                    b.ToTable("CartItems");
                 });
 
             modelBuilder.Entity("GameGallery.Models.Comments", b =>
@@ -207,7 +235,7 @@ namespace GameGallery.Migrations
                     b.ToTable("Reviews");
                 });
 
-            modelBuilder.Entity("GameGallery.Models.UserComments", b =>
+            modelBuilder.Entity("GameGallery.Models.UserBlogComments", b =>
                 {
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -215,11 +243,16 @@ namespace GameGallery.Migrations
                     b.Property<int>("CommentId")
                         .HasColumnType("int");
 
-                    b.HasKey("UserId", "CommentId");
+                    b.Property<int>("BlogPostId")
+                        .HasColumnType("int");
+
+                    b.HasKey("UserId", "CommentId", "BlogPostId");
+
+                    b.HasIndex("BlogPostId");
 
                     b.HasIndex("CommentId");
 
-                    b.ToTable("UserComments");
+                    b.ToTable("UserBlogComments");
                 });
 
             modelBuilder.Entity("GameGallery.Models.Users", b =>
@@ -266,11 +299,18 @@ namespace GameGallery.Migrations
                 {
                     b.HasOne("GameGallery.Models.Users", "User")
                         .WithMany("BlogPosts")
-                        .HasForeignKey("UserBlogId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("GameGallery.Models.CartItem", b =>
+                {
+                    b.HasOne("GameGallery.Models.Games", "Games")
+                        .WithMany()
+                        .HasForeignKey("GamesGameId");
+
+                    b.Navigation("Games");
                 });
 
             modelBuilder.Entity("GameGallery.Models.GameGenres", b =>
@@ -319,19 +359,27 @@ namespace GameGallery.Migrations
                     b.Navigation("Users");
                 });
 
-            modelBuilder.Entity("GameGallery.Models.UserComments", b =>
+            modelBuilder.Entity("GameGallery.Models.UserBlogComments", b =>
                 {
+                    b.HasOne("GameGallery.Models.BlogPosts", "BlogPosts")
+                        .WithMany()
+                        .HasForeignKey("BlogPostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("GameGallery.Models.Comments", "Comments")
-                        .WithMany("UserComments")
+                        .WithMany("UserBlogComments")
                         .HasForeignKey("CommentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("GameGallery.Models.Users", "Users")
-                        .WithMany("UserComments")
+                        .WithMany("UserBlogComments")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("BlogPosts");
 
                     b.Navigation("Comments");
 
@@ -340,7 +388,7 @@ namespace GameGallery.Migrations
 
             modelBuilder.Entity("GameGallery.Models.Comments", b =>
                 {
-                    b.Navigation("UserComments");
+                    b.Navigation("UserBlogComments");
                 });
 
             modelBuilder.Entity("GameGallery.Models.Games", b =>
@@ -366,7 +414,7 @@ namespace GameGallery.Migrations
 
                     b.Navigation("GameReviews");
 
-                    b.Navigation("UserComments");
+                    b.Navigation("UserBlogComments");
                 });
 #pragma warning restore 612, 618
         }

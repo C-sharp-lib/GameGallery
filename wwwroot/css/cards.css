@@ -1,0 +1,11 @@
+﻿.card.card-background.move-on-hover.blog {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: inline-block;
+}
+.blog-image {
+    width: 33%;
+    height: auto;
+    display: inline !important;
+}

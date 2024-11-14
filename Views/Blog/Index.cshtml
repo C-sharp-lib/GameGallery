@@ -1,5 +1,45 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var posts = ViewBag.Posts;
+}
+<div class="row">
+    @if (posts != null)
+    {
+        @foreach (var post in posts)
+        {
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1 col-xl-12 m-3">
+                <div class="card card-background move-on-hover blog">
+                    <img src="@post.ImageOne" alt="@post.Title" class="blog-image">
+                    <img src="@post.ImageTwo" alt="@post.Title" class="blog-image">
+                    <img src="@post.ImageThree" alt="@post.Title" class="blog-image">
+                    <div class="card-body">
+                        <p class="lead text-primary">@post.User.Username</p>
+                        <h4 class="text-white">@post.Title</h4>
+                        <h6 class="text-white-50">@post.Subtitle</h6>
+                        <p>@post.Description</p>
+                        <div class="card-actions">
+                            <span>
+                            <form asp-action="Delete" asp-controller="Blog" method="post" class="">
+                                <input type="hidden" name="BlogPostId" value="@post.BlogPostId" />
+                                <button type="submit" class="text-danger">
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                            </form>
+                            <a asp-action="GetBlogItem" asp-controller="Blog" asp-route-id="@post.BlogPostId" class="text-success m-2"><i class="fa-solid fa-file-lines"></i></a>
+                            <a asp-action="EditBlogItem" asp-controller="Blog" asp-route-id="@post.BlogPostId" class="text-warning m-2"><i class="fa-solid fa-pen-to-square"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p class="text-center lead">Sorry there are no posts on this website yet.</p>
+    }
+</div>
+
+@section Scripts {
+
 }
